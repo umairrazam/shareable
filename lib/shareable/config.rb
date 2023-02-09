@@ -34,7 +34,7 @@ module Shareable
     #facebook
     ##############
     config.app_id = '' # required if using facebook button!
-    config.send= 'false'
+    # config.send= 'false'
     config.layout='button_count' # 'standard', 'button_count', 'button' or 'box_count'. '' defaults to 'standard'.
     config.show_faces='' # 'true' or 'false'. '' defaults to 'false'. Don't set to 'true', if kid_directed_site is also 'true'.
     config.action='' # 'like' or 'recommend'. '' defaults to 'like'.
